@@ -18,10 +18,10 @@ struct ContentView: View {
             
             VStack{ //Vstack (1) -->
                 
-                Text("Welcome back : \t\(firstname) \(secondtname) \n\(thirdtname) ").foregroundColor(Color.white)
+                Text("Welcome back : \t\(firstname) \(secondtname) \n\t\t\t\t\t\(thirdtname) ").foregroundColor(Color.white)
                     .font(.system(size: 25))
                 
-                Text("Welcome back : \t\(firstname) \(secondtname) \n\(thirdtname) ").foregroundColor(Color.white)
+                Text("A.K.A : \t\(username) ").foregroundColor(Color.white)
                     .font(.system(size: 25))
                 
                 
